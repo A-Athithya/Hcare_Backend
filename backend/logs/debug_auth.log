@@ -2875,3 +2875,92 @@
 [2025-12-29 07:24:26] INFO: Incoming request: GET /csrf-token []
 [2025-12-29 07:24:26] INFO: Incoming request: GET /notifications []
 [2025-12-29 07:24:26] INFO: Incoming request: GET /appointments []
+[2025-12-29 14:20:32] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 14:20:32] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 14:20:32] INFO: Incoming request: GET /notifications []
+[2025-12-29 14:20:32] ERROR: JwtService: Token Expired {"exp":1766993851,"now":1767018032}
+[2025-12-29 14:20:32] ERROR: AuthMiddleware: Token Invalid {"token_preview":"eyJ0eXAiOi..."}
+[2025-12-29 14:20:32] INFO: Incoming request: GET /patients []
+[2025-12-29 14:20:32] ERROR: JwtService: Token Expired {"exp":1766993851,"now":1767018032}
+[2025-12-29 14:20:32] ERROR: AuthMiddleware: Token Invalid {"token_preview":"eyJ0eXAiOi..."}
+[2025-12-29 14:20:32] INFO: Incoming request: GET /doctors []
+[2025-12-29 14:20:32] ERROR: JwtService: Token Expired {"exp":1766993851,"now":1767018032}
+[2025-12-29 14:20:32] ERROR: AuthMiddleware: Token Invalid {"token_preview":"eyJ0eXAiOi..."}
+[2025-12-29 14:20:32] INFO: Incoming request: GET /appointments []
+[2025-12-29 14:20:32] ERROR: JwtService: Token Expired {"exp":1766993851,"now":1767018032}
+[2025-12-29 14:20:32] ERROR: AuthMiddleware: Token Invalid {"token_preview":"eyJ0eXAiOi..."}
+[2025-12-29 14:20:32] INFO: Incoming request: GET /medicines []
+[2025-12-29 14:20:32] ERROR: JwtService: Token Expired {"exp":1766993851,"now":1767018032}
+[2025-12-29 14:20:32] ERROR: AuthMiddleware: Token Invalid {"token_preview":"eyJ0eXAiOi..."}
+[2025-12-29 14:20:32] INFO: Incoming request: GET /billing []
+[2025-12-29 14:20:32] ERROR: JwtService: Token Expired {"exp":1766993851,"now":1767018032}
+[2025-12-29 14:20:32] ERROR: AuthMiddleware: Token Invalid {"token_preview":"eyJ0eXAiOi..."}
+[2025-12-29 14:20:32] INFO: Incoming request: POST /refresh-token []
+[2025-12-29 14:20:32] INFO: Incoming request: POST /refresh-token []
+[2025-12-29 14:20:32] INFO: Incoming request: POST /refresh-token []
+[2025-12-29 14:20:32] INFO: Incoming request: POST /refresh-token []
+[2025-12-29 14:20:33] INFO: Incoming request: POST /refresh-token []
+[2025-12-29 14:20:33] INFO: Incoming request: POST /refresh-token []
+[2025-12-29 14:20:33] INFO: Incoming request: GET /notifications []
+[2025-12-29 14:20:33] INFO: Incoming request: POST /logout []
+[2025-12-29 14:20:33] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 14:20:33] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 14:20:33] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 14:23:12] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 14:23:12] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 14:23:21] INFO: Incoming request: POST /login []
+[2025-12-29 14:23:21] INFO: Login Attempt {"email":"harsha@gmail.com"}
+[2025-12-29 14:23:21] INFO: Login Success {"user_id":1,"role":"admin"}
+[2025-12-29 14:23:21] INFO: Incoming request: GET /notifications []
+[2025-12-29 14:23:21] INFO: Incoming request: GET /patients []
+[2025-12-29 14:23:21] INFO: Incoming request: GET /doctors []
+[2025-12-29 14:23:21] INFO: Incoming request: GET /appointments []
+[2025-12-29 14:23:21] INFO: Incoming request: GET /medicines []
+[2025-12-29 14:23:21] INFO: Incoming request: GET /billing []
+[2025-12-29 14:24:12] INFO: Incoming request: GET /appointments []
+[2025-12-29 14:24:12] INFO: Incoming request: GET /patients []
+[2025-12-29 14:24:12] INFO: Incoming request: GET /billing []
+[2025-12-29 14:24:12] INFO: Incoming request: GET /doctors []
+[2025-12-29 14:24:12] INFO: Incoming request: GET /medicines []
+[2025-12-29 14:25:02] INFO: Incoming request: GET /doctors []
+[2025-12-29 14:25:02] INFO: Incoming request: GET /patients []
+[2025-12-29 14:25:02] INFO: Incoming request: GET /appointments []
+[2025-12-29 14:25:02] INFO: Incoming request: GET /billing []
+[2025-12-29 14:25:02] INFO: Incoming request: GET /medicines []
+[2025-12-29 14:25:08] INFO: Incoming request: POST /logout []
+[2025-12-29 14:25:08] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:04:08] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:04:08] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:05:05] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:05:05] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:24:22] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:24:22] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:24:29] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:24:29] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:24:33] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:24:33] INFO: Incoming request: GET /csrf-token []
+[2025-12-29 15:24:36] INFO: Incoming request: POST /login []
+[2025-12-29 15:24:36] INFO: Login Attempt {"email":"admin@hospital.com"}
+[2025-12-29 15:24:36] ERROR: Login Exception {"msg":"Invalid email or password"}
+[2025-12-29 15:24:52] INFO: Incoming request: POST /login []
+[2025-12-29 15:24:52] INFO: Login Attempt {"email":"harsha@gmail.com"}
+[2025-12-29 15:24:54] INFO: Incoming request: POST /login []
+[2025-12-29 15:24:54] INFO: Login Attempt {"email":"harsha@gmail.com"}
+[2025-12-29 15:25:06] INFO: Incoming request: POST /login []
+[2025-12-29 15:25:06] INFO: Login Attempt {"email":"harsha@gmail.com"}
+[2025-12-29 15:25:06] INFO: Login Success {"user_id":1,"role":"admin"}
+[2025-12-29 15:25:06] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:06] INFO: Incoming request: GET /patients []
+[2025-12-29 15:25:06] INFO: Incoming request: GET /doctors []
+[2025-12-29 15:25:06] INFO: Incoming request: GET /billing []
+[2025-12-29 15:25:06] INFO: Incoming request: GET /medicines []
+[2025-12-29 15:25:06] INFO: Incoming request: GET /appointments []
+[2025-12-29 15:25:11] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:16] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:21] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:26] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:31] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:36] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:41] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:46] INFO: Incoming request: GET /notifications []
+[2025-12-29 15:25:51] INFO: Incoming request: GET /notifications []
