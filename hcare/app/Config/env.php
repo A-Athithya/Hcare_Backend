@@ -5,7 +5,9 @@
  * Loads environment variables from .env file and makes them available via getenv()
  */
 
-// Load .env file
+// Load .env file (if it exists)
+// On platforms like Render.com, Heroku, etc., environment variables are set directly
+// so the .env file may not exist, which is fine
 $envFile = BASE_PATH . '/.env';
 
 if (file_exists($envFile)) {
@@ -28,12 +30,18 @@ if (file_exists($envFile)) {
                 $value = $matches[2];
             }
             
-            // Set environment variable
-            putenv("$key=$value");
-            $_ENV[$key] = $value;
-            $_SERVER[$key] = $value;
+            // Only set if not already set in environment (env vars take precedence)
+            if (!getenv($key) && !isset($_ENV[$key])) {
+                putenv("$key=$value");
+                $_ENV[$key] = $value;
+                $_SERVER[$key] = $value;
+            }
         }
     }
+} else {
+    // .env file doesn't exist - this is OK for production platforms
+    // Environment variables should be set directly (e.g., via Render.com dashboard)
+    error_log("Note: .env file not found. Using environment variables directly.");
 }
 
 // Define debug mode constant
