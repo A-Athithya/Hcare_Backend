@@ -136,7 +136,7 @@ class AuthController {
             if (!$storedToken) {
                 // Invalid token - clear cookie
                 setcookie('refreshToken', '', time() - 3600, '/');
-                Response::json(['error' => 'Invalid or expired refresh token'], 401);
+                    Response::json(['error' => 'Invalid or expired refresh token'], 401);
             }
             
             // Revoke old token

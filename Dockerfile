@@ -15,6 +15,9 @@ RUN a2enmod rewrite
 # Set correct document root
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/hcare/public
 
+# Install mysqli
+RUN docker-php-ext-install mysqli
+
 # Update Apache config
 RUN sed -ri 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
 RUN sed -ri 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
